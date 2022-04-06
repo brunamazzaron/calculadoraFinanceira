@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0 10%;
+}
+
+.header-container .header-items .menu{
+    display: inline-block;
+}
+
+.menu ul li{
+    list-style:none;
+}
