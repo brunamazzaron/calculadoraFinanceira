@@ -3,28 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Calculadora financeira</title>
-
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header class="header-container">
-        <div class="header-items logo">
-            <h2>LOGO</h2>
-        </div>
-        <div class="header-items menu">
-            <ul>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Community</li>
-                <li>Support</li>
-            </ul>
-        </div>
-        <div class="header-items button-group">
-            <button class="primary">Log in</button>
-            <button class="ghost">Register</button>
-        </div>
+    <header class="header">
+        <img id="logo" src="imagens/Finanças Reserva de Emergência Post Instagram (1).png" alt="logo cofrinho">
+        <nav class="header-menu">
+                <a class="header-menu-item">Home</a>
+                <a class="header-menu-item">Quem somos</a>
+                <a class="header-menu-item">Newsletter</a>
+        </nav>
+        <nav>
+            <button type="button" class="button">Inscreva-se</button>
+            <button type="button" class="button">Entre</button>
+        </nav>
     </header>
+    <main>
+        <section class="banner">
+            <img id="banner" src="imagens/banner.png">
+            <h1>Reserva de Emergência</h1>
+            <h3>Como fazer a sua?</h3>
+            <button class="button-banner">Faça os cálculos</button>
+        </section>
+
+        <section class="container">
+            <div class="box1">
+                <h2> Formulário </h2>
+                <form class="box2">        
+                        <div class="card-content">
+                            <div class="card-content-area">
+                                <label for="salario">Quanto você ganha?</label>
+                                <p>Fala ai sem medo, precisamos saber para calcular tudo direitinho!</p>
+                                <input type="text" id="salario" placeholder="$">
+                            </div>
+        
+                            <div class="card-content-area">
+                                <label for="gastosFixos">Quais são seus gastos fixos?</label>
+                                <p>Não esquece da conta de telefone, gás, água, luz e internet, hein!</p>
+                                <input type="gastosFixos" id="gastosFixos" placeholder="$">
+                            </div>
+
+                            <div class="card-content-area">
+                                <label for="">x</label>
+                                <input type="" id="" placeholder="$">
+                            </div>
+
+                            <div class="card-content-area">
+                                <label for="password">y</label>
+                                <input type="" id="" placeholder="$">
+                            </div>
+
+                            <div class="card-content-area">
+                                <label for="password">z</label>
+                                <input type="" id="" placeholder="$">
+                            </div>
+        
+                        </div>
+        
+                        <div class="card-footer">
+                            <button type="submit" value="submit" class="submit">
+                        </div>
+        
+                    </form>
+                  </form>
+            </div>
+            <div class="box3">
+                <img id="imagem2" src="imagens/img2.png" alt="finanças">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img>
+    </footer>
 </body>
 </html>

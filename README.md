@@ -13,14 +13,11 @@
 # 1 - o usuário pode colocar o quanto ganha e os valores gastos fixos e assim gerar o quanto deve ser poupado.
 
 - inserir entrada (money)
-  > future
-  > oi
-  >
+  > future:
   > - inserir o tipo da entrada
   > - inserir o valor da entrada
 - inserir gastos fixos
-  > future
-  >
+  > future: 
   > - inserir o tipo do gasto
   > - inserir o valor do gasto
 - fazer calculos com o money restante:
