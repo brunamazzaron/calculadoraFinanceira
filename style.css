@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;500&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@1,400;1,900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 * {
     font-family: 'PT Sans', sans-serif;
@@ -16,7 +17,6 @@ body{
 
 /* Logo */
 #logo{
-    border: solid 1px black;
     width: 12%;
     padding: 0;
 }
@@ -30,27 +30,63 @@ body{
 
 .header{
     display: flex;
-    border: solid 1px black;
+    height: 100px;
+    padding: 0 10px;
     flex-direction: row;
-    align-items: center;
+    align-items: center; /* alinha no eixo secundário (y) */
+    justify-content: space-around; /* alinha no eixo primário (x) */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .header-menu{
     display: flex;
-    border: solid 1px blue;
-    display: flex;
+    max-height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 10px;
 }
 
 .header-menu-item{
-    display: flex;
-    align-items: center;
-    padding: 13%;
-    border: solid 1px pink;
+   margin: 0 15px;
+   cursor: pointer;
+   color: #18A0FB;
+   font-weight: 800;
+   font-family: 'Montserrat', sans-serif;
 }
 
-.header-menu .button{
+.button-group {
+    height: 100%; /*só funciona % se o elemento pai tiver altura definida*/
+    min-width: 300px;
+    padding: 10px;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-group .button {
+    width: 130px;
+    height: 50px;
+    border: 1px solid #18A0FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #18A0FB;
+    font-weight: 400;
+    cursor: pointer;
+    transition: ease-in-out all .3s;
+}
+
+.button-group .button:hover {
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+    transition: ease-in-out all .3s;
+}
+
+.button-group .primary {
+    color: white;
+    background-color: #18A0FB;
 }
 
 .banner{
