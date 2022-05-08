@@ -1,9 +1,9 @@
 ## Tarefas
 
 - [] Concluir Header
-    - [] Alinhar logo a esquerda
-    - [] Alinhar itens do menu no centro mas perto do logo
-    - [] Alinhar grupo de botões no centro
+    - [x] Alinhar logo a esquerda
+    - [x] Alinhar itens do menu no centro mas perto do logo
+    - [x] Alinhar grupo de botões no centro
 
 - [] Criar Banner
     - [x] Inserir imagem
@@ -11,23 +11,33 @@
     - [x] Inserir texto subtítulo
     - [x] Inserir botão
 
-- [] Criar formulário
-    - [] Criar container do formulário
-        - [] Inserir inputs
-    - [] Inserir imagem
+- [x] Criar formulário
+    - [x] Criar container do formulário
+        - [x] Inserir inputs
+    - [x] Inserir imagem
 
 
 
 #### Aula 13/04 Tarefas
 
 - [] Correções:
-    - [] Corrigir menu baseado nessa branch
+    - [x] Corrigir menu baseado nessa branch
 '   - [] Corrigir footer
     - [] Adicionar hover no botão do banner
 
 - [] Iniciar com o javascript no formulario
-    - [] Capturar valores inseridos nos inputs
-    - [] Adicionar comportamento de clique no botão 'ENVIAR'
-    - [] (extra) Criar a lógica do cálculo do money
-        - [] Criar função de calculo (objeto com os valores = {x, y z})
-        - [] Atualizar inputs com os valores
+    - [x] Capturar valores inseridos nos inputs
+    - [x] Adicionar comportamento de clique no botão 'ENVIAR'
+    - [x] (extra) Criar a lógica do cálculo do money
+        - [x] Criar função de calculo (objeto com os valores = {x, y z})
+        - [x] Atualizar inputs com os valores
+
+### Aula 28/04 tarefas
+    - [x] Iniciar um novo formulário + completo
+        - [] Capturar valores inseridos nos inputs separados dos gastos fixos
+        agua, luz, telefone, gás, gasolina, outros
+        - [] Adicionar comportamento de clique no botão 'Calcular'
+        - []
+
+//IDEIAS:
+    DEPOIS DE COLOCAR TODOS OS VALORES FIXOS QUE SAO GASTOS O SITE IR MONTANDO UMA TABELA POR MÊS REGISTRANDO ESSES DADOS

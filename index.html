@@ -36,38 +36,34 @@
                             <div class="card-content-area">
                                 <label for="salario">Quanto você ganha?</label>
                                 <p>Fala ai sem medo, precisamos saber para calcular tudo direitinho!</p>
-                                <input type="text" id="salario" placeholder="$">
+                                <input type="text" id="salario" placeholder="">
                             </div>
         
                             <div class="card-content-area">
                                 <label for="gastosFixos">Quais são seus gastos fixos?</label>
                                 <p>Não esquece da conta de telefone, gás, água, luz e internet, hein!</p>
-                                <input type="gastosFixos" id="gastosFixos" placeholder="$">
-                            </div>
-
-                            <div class="card-content-area">
-                                <label for="">x</label>
-                                <input type="" id="" placeholder="$">
-                            </div>
-
-                            <div class="card-content-area">
-                                <label for="password">y</label>
-                                <input type="" id="" placeholder="$">
-                            </div>
-
-                            <div class="card-content-area">
-                                <label for="password">z</label>
-                                <input type="" id="" placeholder="$">
-                            </div>
-        
-                        </div>
+                                <input type="gastosFixos" id="gastosFixos" placeholder="">
+                            </div>                       
         
                         <div class="card-footer">
-                            <button type="submit" value="submit" class="submit">Enviar</button>
+                            <button type="button" class="button-form" onclick="calculadora()">Calcular</button>
                         </div>
-        
-                    </form>
-                  </form>
+                        <span id="resposta">R$ 0,00<small>/hora</small></span>
+                        <div class="card-content-area">
+                            <label for="salario">Diversão</label>
+                            <span id="diversao">R$ 0,00<small>/hora</small></span>
+                        </div>
+                        <div class="card-content-area">
+                            <label for="salario">Investimento</label>
+                            <span id="investimento">R$ 0,00<small>/hora</small></span>
+                        </div>
+                        <div class="card-content-area">
+                            <label for="salario">Poupança</label>
+                            <span id="poupanca">R$ 0,00<small>/hora</small></span>
+                        </div>
+                    </div>
+
+                </form>
             </div>
             <div class="box3">
                 <img id="imagem2" src="imagens/img2.png" alt="finanças">
@@ -75,10 +71,16 @@
         </section>
     </main>
     <footer class="footer">
-        <img src="imagens/facebook.png">
-        <img src="imagens/twitter.png">
-        <img src="imagens/instagram1.png">
-    </footer>
-    <script src="script.js"></script>
+        <div class="logotipo">
+            <img src="imagens/logoImage.png">
+        </div>
+        <nav class="redes">
+            <ul>
+                <li><a href="" target="_blank"><img src="imagens/facebook.png" alt=""></a></li>
+                <li><a href="" target="_blank"><img src="imagens/instagram1.png" alt=""></a></li>
+                <li><a href="" target="_blank"><img src="imagens/twitter.png" alt=""></a></li>
+           </ul>
+        </nav>
+    </footer>    <script src="script.js"></script>
 </body>
 </html>

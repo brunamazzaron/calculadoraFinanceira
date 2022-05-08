@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Calculadora financeira</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <img id="logo" src="imagens/logoImage.png" alt="logo cofrinho">
+        <nav class="header-menu">
+                <a class="header-menu-item">Home</a>
+                <a class="header-menu-item">Quem somos</a>
+                <a class="header-menu-item">Newsletter</a>
+        </nav>
+        <nav class="button-group">
+            <div class="button">Inscreva-se</div>
+            <div class="button primary">Entre</div>
+        </nav>
+    </header>
+    <main>
+        <section class="maior1">
+            <form class="maior2">
+                <img class="imagem-card1" src="imagens/dindin.png"> 
+                <div class="box_1">
+                    <label for="GET-name" class="titulo-card">Quanto você recebe por mês?</label>
+                    <input class="titulo-card" id="salario" type="text" name="name" autocomplete="off">
+                    <span class="titulo-card cor-preta" id="respostaHoraTrabalho">R$ 0,00<small>/hora</small></span>
+                </div>
+                <img class="imagem-card2" src="imagens/luz.png">
+                <div class="box_2"> 
+                    <label class="titulo-card" for="GET-name">Quanto você gasta com luz?</label>
+                    <input class="titulo-card" id="luz" type="text" name="name" autocomplete="off">
+                    <span class="titulo-card cor-preta" id="respostaValorSubLuz">R$ 0,00<small>/hora</small></span>
+
+                </div>
+                <img class="imagem-card3" src="imagens/agua.png">
+                <div class="box_3"> 
+                    <label class="titulo-card" for="GET-name">Quanto você gasta com água?</label>
+                    <input class="titulo-card" id="agua" type="text" name="name" autocomplete="on">
+                    <span class="titulo-card cor-preta" id="respostaValorSubAgua">R$ 0,00<small>/hora</small></span>
+                </div>
+                <img class="imagem-card4" src="imagens/gas.png"> 
+                <div class="box_4"> 
+                    <label class="titulo-card" for="GET-name">Quanto você gasta com gás?</label>
+                    <input class="titulo-card" id="gas" type="text" name="name" autocomplete="on">
+                    <span class="titulo-card cor-preta" id="respostaValorSubGas" >R$ 0,00<small>/hora</small></span>
+
+                </div>
+                <img class="imagem-card5" src="imagens/internet.png"> 
+                <div class="box_5"> 
+                    <label class="titulo-card"  for="GET-name">Quanto você gasta com internet?</label>
+                    <input class="titulo-card" id="internet" type="text" name="name" autocomplete="on">
+                    <span class="titulo-card cor-preta" id="respostaValorSubInte" >R$ 0,00<small>/hora</small></span>
+                </div>
+                <img class="imagem-card6" src="imagens/fatura.png"> 
+                <div class="box_6"> 
+                    <label class="titulo-card" for="GET-name">Quais outros gastos que você tem?</label>
+                    <input class="titulo-card" id="outros" type="text" name="name" autocomplete="on">
+                    <span class="titulo-card cor-preta" id="respostaValorSubOutros">R$ 0,00<small>/hora</small></span>
+                </div>
+                <div><button class="" type="submit" value="">Calculadora</button></div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
