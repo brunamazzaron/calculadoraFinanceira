@@ -34,10 +34,15 @@
 
 ### Aula 28/04 tarefas
     - [x] Iniciar um novo formulário + completo
-        - [] Capturar valores inseridos nos inputs separados dos gastos fixos
+        - [x] Capturar valores inseridos nos inputs separados dos gastos fixos
         agua, luz, telefone, gás, gasolina, outros
-        - [] Adicionar comportamento de clique no botão 'Calcular'
-        - []
+        - [x] Adicionar comportamento de clique no botão 'Calcular'
+        
 
 //IDEIAS:
     DEPOIS DE COLOCAR TODOS OS VALORES FIXOS QUE SAO GASTOS O SITE IR MONTANDO UMA TABELA POR MÊS REGISTRANDO ESSES DADOS
+
+//Problemas encontrados:
+ - esconder as funçoes do video
+ - arrumar o botao Calcular
+ - entender o porque não esta vindo inputs

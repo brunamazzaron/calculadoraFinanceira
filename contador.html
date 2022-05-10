@@ -20,51 +20,60 @@
             <div class="button primary">Entre</div>
         </nav>
     </header>
+    <section class="video">
+        <video width="100%" height="900px" controls="controls" autoplay="autostart"Q frameborder="0">
+            <source src="imagens/cofre.mp4" type="video/mp4">
+        </video>
+    </section>
     <main>
         <section class="maior1">
             <form class="maior2">
                 <img class="imagem-card1" src="imagens/dindin.png"> 
                 <div class="box_1">
-                    <label for="GET-name" class="titulo-card">Quanto você recebe por mês?</label>
-                    <input class="titulo-card" id="salario" type="text" name="name" autocomplete="off">
+                    <label for="salario" class="titulo-card">Quanto você recebe por mês?</label>
+                    <input class="titulo-card field" id="salario" type="text" name="salario">
                     <span class="titulo-card cor-preta" id="respostaHoraTrabalho">R$ 0,00<small>/hora</small></span>
                 </div>
                 <img class="imagem-card2" src="imagens/luz.png">
                 <div class="box_2"> 
                     <label class="titulo-card" for="GET-name">Quanto você gasta com luz?</label>
-                    <input class="titulo-card" id="luz" type="text" name="name" autocomplete="off">
+                    <input class="titulo-card field" id="luz" type="text" name="name" autocomplete="off">
                     <span class="titulo-card cor-preta" id="respostaValorSubLuz">R$ 0,00<small>/hora</small></span>
 
                 </div>
                 <img class="imagem-card3" src="imagens/agua.png">
                 <div class="box_3"> 
                     <label class="titulo-card" for="GET-name">Quanto você gasta com água?</label>
-                    <input class="titulo-card" id="agua" type="text" name="name" autocomplete="on">
+                    <input class="titulo-card field" id="agua" type="text" name="name" autocomplete="on">
                     <span class="titulo-card cor-preta" id="respostaValorSubAgua">R$ 0,00<small>/hora</small></span>
                 </div>
                 <img class="imagem-card4" src="imagens/gas.png"> 
                 <div class="box_4"> 
                     <label class="titulo-card" for="GET-name">Quanto você gasta com gás?</label>
-                    <input class="titulo-card" id="gas" type="text" name="name" autocomplete="on">
+                    <input class="titulo-card field" id="gas" type="text" name="name" autocomplete="on">
                     <span class="titulo-card cor-preta" id="respostaValorSubGas" >R$ 0,00<small>/hora</small></span>
 
                 </div>
                 <img class="imagem-card5" src="imagens/internet.png"> 
                 <div class="box_5"> 
                     <label class="titulo-card"  for="GET-name">Quanto você gasta com internet?</label>
-                    <input class="titulo-card" id="internet" type="text" name="name" autocomplete="on">
+                    <input class="titulo-card field" id="internet" type="text" name="name" autocomplete="on">
                     <span class="titulo-card cor-preta" id="respostaValorSubInte" >R$ 0,00<small>/hora</small></span>
                 </div>
                 <img class="imagem-card6" src="imagens/fatura.png"> 
                 <div class="box_6"> 
-                    <label class="titulo-card" for="GET-name">Quais outros gastos que você tem?</label>
-                    <input class="titulo-card" id="outros" type="text" name="name" autocomplete="on">
+                    <label class="titulo-card" for="GET-name">Quais outros gastos   ?</label>
+                    <input class="titulo-card field" id="outros" type="text" name="name" autocomplete="on">
                     <span class="titulo-card cor-preta" id="respostaValorSubOutros">R$ 0,00<small>/hora</small></span>
                 </div>
-                <div><button class="" type="submit" value="">Calculadora</button></div>
             </form>
+                <button type="button" class="button-calcular" onclick="calcular()">Calcular</button>
+        </section>
+        <section>
+            <span class="cor-preta" id="">R$ 0,00<small>/hora</small></span>
         </section>
     </main>
+    <script src="logicaJavaScript.js"></script>
 </body>
 
 </html>

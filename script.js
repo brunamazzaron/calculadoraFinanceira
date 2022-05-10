@@ -16,18 +16,6 @@ var resposta = document.querySelector("#resposta");
 var inputDiversao = document.querySelector("#diversao")
 var inputInvestimento = document.querySelector("#investimento")
 var inputPoupanca = document.querySelector("#poupanca")
-var inputSalario = document.querySelector("#salario")
-var inputLuz = document.querySelector("#luz")
-var inputAgua = document.querySelector("#agua")
-var inputGas = document.querySelector("#gas")
-var inputInternet = document.querySelector("#internet")
-var inputOutros = document.querySelector("#outros")
-
-
-
-//respostaHoraTrabalho
-
-
 
 function divDiversao(result) {
     let resultDividido = (result / 100 * 20).toFixed(2);
