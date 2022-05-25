@@ -20,10 +20,8 @@
             <div class="button primary">Entre</div>
         </nav>
     </header>
-    <section class="video">
-        <video width="100%" height="900px" controls="controls" autoplay="autostart"Q frameborder="0">
-            <source src="imagens/cofre.mp4" type="video/mp4">
-        </video>
+    <section>
+            <img src="imagens/cofre.gif" width="100%" height="900px">
     </section>
     <main>
         <section class="maior1">
@@ -38,7 +36,7 @@
                 <div class="box_2"> 
                     <label class="titulo-card" for="GET-name">Quanto você gasta com luz?</label>
                     <input class="titulo-card field" id="luz" type="text" name="name" autocomplete="off">
-                    <span class="titulo-card cor-preta" id="respostaValorSubLuz">R$ 0,00<small>/hora</small></span>
+                    <span class="titulo-card cor-preta" id="respostaValorSubLuz">Resta R$ 0,00<small>/hora</small></span>
 
                 </div>
                 <img class="imagem-card3" src="imagens/agua.png">
@@ -67,10 +65,7 @@
                     <span class="titulo-card cor-preta" id="respostaValorSubOutros">R$ 0,00<small>/hora</small></span>
                 </div>
             </form>
-                <button type="button" class="button-calcular" onclick="calcular()">Calcular</button>
-        </section>
-        <section>
-            <span class="cor-preta" id="">R$ 0,00<small>/hora</small></span>
+                <button class="button-calcular" onclick="calcular()">Calcular</button>
         </section>
     </main>
     <script src="logicaJavaScript.js"></script>

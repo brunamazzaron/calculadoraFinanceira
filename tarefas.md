@@ -39,10 +39,13 @@
         - [x] Adicionar comportamento de clique no botão 'Calcular'
         
 
+### Aula 10/05 Tarefas
+    - [] 
 //IDEIAS:
-    DEPOIS DE COLOCAR TODOS OS VALORES FIXOS QUE SAO GASTOS O SITE IR MONTANDO UMA TABELA POR MÊS REGISTRANDO ESSES DADOS
+    DEPOIS DE COLOCAR TODOS OS VALORES FIXOS QUE SAO GASTOS NO SITE IR MONTANDO UMA TABELA POR MÊS REGISTRANDO ESSES DADOS
+    - salvar no navegador
 
 //Problemas encontrados:
- - esconder as funçoes do video
- - arrumar o botao Calcular
- - entender o porque não esta vindo inputs
+ - esconder as funçoes do video [x]
+ - arrumar o botao Calcular [x]
+ - entender o porque não esta vindo inputs [x]

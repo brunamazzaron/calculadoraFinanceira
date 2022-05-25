@@ -305,7 +305,7 @@ and (max-width: 769px){
 
 .maior1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -316,6 +316,7 @@ and (max-width: 769px){
     justify-content: center;
     position: relative;
     padding: 10px;
+
 }
 
 .box_1{
@@ -326,7 +327,9 @@ and (max-width: 769px){
     padding: 20px;
     margin: 13px;
     background-color: #d9f1f1;
+
 }
+
 
 .imagem-card1{
     position: absolute;
@@ -345,7 +348,9 @@ and (max-width: 769px){
     padding: 20px;
     margin: 13px;
     background-color: #fadee1;
+
 }
+
 
 .imagem-card2{
     position: absolute;
@@ -363,6 +368,7 @@ and (max-width: 769px){
     padding: 20px;
     margin: 13px;
     background-color: #c6e5b1;
+
 }
 
 .imagem-card3{
@@ -382,6 +388,7 @@ and (max-width: 769px){
     padding: 20px;
     margin: 13px;
     background-color: #faf1d6;
+
 }
 
 .imagem-card4{
@@ -400,6 +407,7 @@ and (max-width: 769px){
     padding: 20px;
     margin: 13px;
     background-color: #b9c0ea;
+
 }
 
 .imagem-card5{
@@ -418,6 +426,7 @@ and (max-width: 769px){
     padding: 20px;
     margin: 13px;
     background-color: #e1f7e7;
+
 }
 
 .imagem-card6{
@@ -450,4 +459,32 @@ and (max-width: 769px){
 
 .video{
     width: 100%;
+}
+
+.button-calcular{
+    position: relative;
+    width: 20%;
+	text-align: center;
+	text-transform: uppercase; 
+	padding: 15px;
+	margin: 30px 25px;
+    left: 40%;
+	font-weight: 600;
+	transition: 0.5s;
+}
+
+.button-calcular:before {
+	position: absolute;
+	content:"";
+	border-top: 5px solid lighten($color-button-red, 5%);
+	border-left: 5px solid lighten($color-button-red, 5%);	
+	border-right: 5px solid darken($color-button-red, 5%);
+	border-bottom: 5px solid darken($color-button-red, 5%);
+
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;	
+
+  transition: 0.5s;
 }
