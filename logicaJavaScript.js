@@ -11,20 +11,35 @@ function horaTrabalho(salario){
     respostaHoraTrabalho.textContent = stringParse.replace('.', ',')
 } //pronta
 
+/*
+1- calcula luz
+2- calcula auga
+3- calcula gás
+4- internet
+5- outros
+*/
+
 function calcular() {
     const inputSalario = document.querySelector("#salario");
-    let getAgua = parseFloat(inputAgua.value);
-    let getGas = parseFloat(inputGas.value);
-    let getInternet = parseFloat(inputInternet.value);
-    let getOutros = parseFloat(inputOutros.value);
-
-    let conta = [getAgua, getGas, getInternet,getOutros]
-
-
+    
     let valorSalario = inputSalario.value;
-    let salario = (Number(valorSalario) - conta).toFixed(2);
-    document.querySelector('#').innerHTML = salario;
-    return Number();
+    let contas = [inputLuz, inputAgua, inputGas, inputInternet, inputOutros];
+    for(i = 0; i < contas.length; i++){
+        let novoSalario = masterCalulator(contas[i], valorSalario)
+        valorSalario = novoSalario;
+    }
+    return;
+}
+
+function masterCalulator(inputRef, salarioAtual) {
+    let valorInput = parseFloat(inputRef.value)
+    let restoSalario = (Number(salarioAtual) - valorInput).toFixed(2)
+    let resultadoConta = `Restam R$${restoSalario}`;
+
+    let spanResultado = (document.getElementById(inputRef.id).nextSibling);
+    spanResultado.nextSibling.innerHTML = resultadoConta;
+
+    return Number(restoSalario);
 }
 
 //contas que removem do meu salário

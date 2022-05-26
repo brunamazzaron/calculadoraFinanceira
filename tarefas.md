@@ -49,3 +49,11 @@
  - esconder as funçoes do video [x]
  - arrumar o botao Calcular [x]
  - entender o porque não esta vindo inputs [x]
+
+ ### Aula 31/05 Tarefas
+[] - Criar uma tabela de economia com as seguintes colunas
+    [] - Poupança -> x%
+    [] - Reserva de emergência -> x%
+    [] - Lazer -> x%
+
+    
