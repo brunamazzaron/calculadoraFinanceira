@@ -11,7 +11,6 @@ function horaTrabalho(salario){
     respostaHoraTrabalho.textContent = stringParse.replace('.', ',')
 } //pronta
 
-
 function calcular() {
     const inputSalario = document.querySelector("#salario");
     let getAgua = parseFloat(inputAgua.value);
